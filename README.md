@@ -13,7 +13,7 @@ sudo apt-get update
 sudo apt-get install certbot[/code]
 ```
 
-##Check out this script then make it excuitable 
+## Check out this script then make it excuitable 
 ``` bash 
 chmod .+ new_site.sh
 ```
