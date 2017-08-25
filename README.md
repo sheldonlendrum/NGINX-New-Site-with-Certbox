@@ -10,7 +10,7 @@ Install certbot
 ``` bash
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
-sudo apt-get install certbot[/code]
+sudo apt-get install certbot
 ```
 
 ## Check out this script then make it excuitable 
@@ -40,3 +40,7 @@ NGINX will be configured to point to here also.
 
 
 You're ready to go!
+
+## Do what you want
+Do what you want with this, use it, alter it, give feedback. 
+If you have suggestions to make it better, please let me know. 
