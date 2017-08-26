@@ -1,4 +1,4 @@
-# NGINX-New-Site-with-Certbox
+# NGINX: Create a New Site/virtual Host and secure it with Lets Encrypt SSL Certificate
 Simple script to setup a new site with a Lets Encrypt SSL Certificate
 
 
@@ -32,10 +32,11 @@ You will be promted to enter the root domain, eg: example.com (NOT www.example.c
 As basic config file will be created, NGINX will be reloaded, and then the Certbot Let Encrypt call will be made. 
 Once that has created the certificates, a full secure hardened conf file will be installed and NGINX will be reloaded again. 
 
-A site filder will be created on the server in 
+A site folder will be created on the server in 
 ``` bash 
 /var/www/{domain}/www
 ```
+
 NGINX will be configured to point to here also.
 
 
